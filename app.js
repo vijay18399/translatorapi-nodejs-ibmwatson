@@ -9,7 +9,7 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 const languageTranslator = new LanguageTranslatorV3({
   version: '2018-05-01',
   authenticator: new IamAuthenticator({
-    apikey: 'Jj2qwphGG2Xh5W90MvDrL4w0_oIZoJ3S8rdUa_vxPTWf',
+    apikey: 'Your api key',
   }),
   url: 'https://gateway-lon.watsonplatform.net/language-translator/api',
 });
